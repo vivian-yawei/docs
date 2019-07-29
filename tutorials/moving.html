@@ -35,8 +35,12 @@
           height: 320,
           colWidths: 100,
           manualColumnMove: true,
-          manualRowMove: true
-        });</script>
+          manualRowMove: true,
+        });
+        afterColumnMove(columns,target){
+          alert(columns,target);
+        };
+      </script>
     </div>
   </div>
   <p class="gap-top-xsmall">
